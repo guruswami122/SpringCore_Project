@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd"> 
+  
+ <hibernate-mapping>  
+  <class name="CurdOperation.Employee" table="Employee1">  
+    <id name="empcode">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="empname"></property>  
+    <property name="jobTitle"></property>  
+    <property name="emailID"></property>  
+    <property name="experience"></property>  
+    <property name="location"></property>  
+  </class>  
+            
+ </hibernate-mapping>  
+ 
+ 
